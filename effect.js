@@ -179,7 +179,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(50)").fadeOut('slow').promise().done(function () {
 					$('#b11,#b22,#b33,#b44,#b55,#b66,#b77').fadeOut('slow');
-					$('.foto').fadeIn('fast');
+					$('.foto').fadeIn('slow');
 					// Tambahkan kode untuk menampilkan foto setelah pesan selesai
 					$('.foto').css('display', 'block');
 					$('.foto').animate({opacity: 1}, 2000);
